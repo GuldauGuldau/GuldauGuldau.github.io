@@ -9,11 +9,83 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico">
     <!-- Resources style -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/animate.css">-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body>
-    Welcom to
+    <div class="card-content" id="content">
+      <navbar>
+        <img class="logo" src="img/logo.png">
+        <div class="navbar-right">
+          <ul class="top-menu">
+            <li><a>Features</a></li>
+            <li><a>Packages</a></li>
+            <li><a>Product</a></li>
+          </ul>
+          <div class="basket">
+            <i class="material-icons">add_shopping_cart</i>
+            <span class="mark">1</span>
+          </div>
+        </div>
+      </navbar>
+      <section class="preview-section">
+        <div class="welcom-block">
+          <h2>Welcome,</h2>
+          <p>
+            Renting is the new way to own and we
+            help you to <b>save money</b>  on new stuff
+          </p>
+          <div class="btn-main">Ready to save?</div>
+        </div>
+        <div class="view-block transitions">
+          <img src="img/armchair.png" class="transitions">
+        </div>
+        <div class="welcom-bg-block"></div>
+        <div id="switch-arrow"></div>
+      </section>
+
+      <section class="products-sections">
+        <span id="collapseProduct">
+          <i class="material-icons exp-more">expand_more</i>
+          <i class="material-icons exp-less">expand_less</i>
+        </span>
+        <h3 class="section-title">Products</h3>
+        <ul class="filter-list">
+          <li>Popular</li>
+          <li>Recent</li>
+          <li>Packages</li>
+        </ul>
+        <div class="products-list">
+          <div class="product-item">
+            <img src="img/xbox.png">
+            <div class="product-name">Xbox One 3</div>
+            <div class="product-price">&#8364;550</div>
+          </div>
+          <div class="product-item">
+            <img src="img/modern_chair.png">
+            <div class="product-name">Modern Chair</div>
+            <div class="product-price">&#8364;110</div>
+          </div>
+          <div class="product-item">
+            <img src="img/ps3.png">
+            <div class="product-name">Playstation 3</div>
+            <div class="product-price">&#8364;250</div>
+          </div>
+          <div class="product-item">
+            <img src="img/cupboard.png">
+            <div class="product-name">Simple cupboard</div>
+            <div class="product-price">&#8364;250</div>
+          </div>
+          <div class="product-item">
+            <img src="img/double_bed.png">
+            <div class="product-name">Double bed</div>
+            <div class="product-price">&#8364;650</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
